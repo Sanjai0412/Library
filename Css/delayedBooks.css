@@ -1,0 +1,55 @@
+:root{
+    --main-color: rgb(83, 83, 214);
+}
+
+#header-div{
+    height: 40px;
+    background-color:var(--main-color);
+}
+#left-div{
+    width: 80px;
+    background-color:var(--main-color);
+}
+#search-bar-div{
+    position: relative;
+    top: 7px;
+    left: 290px;
+}
+
+#ulist{
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    margin-top: 0px;
+}
+.delayed-book-list-items{
+    width: 1000px;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 0.1px;
+    border-color: rgb(208, 208, 208);
+    
+    margin-bottom: 6px;
+}
+.book-name-div{
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+.mobile-label-div{
+    font-size: medium;
+}
+
+.flex{
+    display: flex;
+}
+.inline{
+    display: inline;
+}
+
+.left-spacing{
+    position: relative;
+    left: 20px;
+}

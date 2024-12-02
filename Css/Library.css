@@ -1,0 +1,269 @@
+.bookName{
+    height: 30px;
+    width: 200px;
+    color: rgb(114, 22, 22);
+}
+
+.page-No{
+    font-weight: lighter;
+    color: rgb(34, 118, 63);
+}
+
+.book-prize{
+    height: 30;
+    width: 50px;
+    font-size:larger;
+    font-weight: bold;
+    color: rgb(22, 19, 24);
+}
+
+
+.book-stock{
+    width: 50px;
+    color: rgb(114, 22, 22);
+}
+
+
+/* Navbar */
+
+
+#logo-div{
+    height: 20px;
+    width: 60px;
+}
+
+#search-bar{
+    width: 300px;
+}
+
+
+
+#header-div{
+    height: 30px;
+    
+}
+
+
+
+
+.price-stock-tag{
+    height: 25px;
+}
+
+.book-image-div{
+    padding: 6px;
+    display: flex;
+    background-color: rgb(251, 246, 246);
+}
+
+.multiple-authors{
+    height: 20px;
+    width: 500px;
+    font-size :15px;
+    color: rgb(78, 78, 77);
+}
+
+.book-list-items{
+    margin: 10px;
+    height: 140px;
+    width: 1000px;
+    display: flex;
+}
+
+.book-list-items:hover{
+    border-color: rgb(153, 155, 156);
+    background-color: rgba(241, 241, 241, 0.562);
+    transition: 1.2s;
+}
+
+.book-tag{
+    height: 100px;
+    width: 300px;
+}
+.flex{
+    display: flex;
+}
+.name-title-card{
+    height: 20px;
+    width: 400px;
+    font-size: large;
+    font-weight:lighter;
+    cursor: pointer;
+}   
+.page-title-card{
+    font-weight: normal;
+}
+
+.name-title-card:hover{
+    color: rgb(150, 64, 35);
+}
+
+.genre-date-tag{
+    font-size: small;
+    color: rgb(112, 112, 110);
+    height: 20px;
+    width: 400px;
+}
+.ratings-title-card{
+    color: aliceblue;
+    background-color: rgb(45, 100, 45);
+}
+
+
+.prize-title-card{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-btn{
+    cursor: pointer;
+    border-radius: 3px;
+    color: rgb(248, 248, 249);
+    background-color: rgb(75, 101, 123);
+    border-width: 0px;
+    margin-left: 1px;
+}
+
+.add-btn:hover{
+    font-weight: bolder;
+    background-color: rgb(76, 134, 177);
+    transition: 0.1s;
+    outline-style:solid;
+    outline-color: rgb(90, 141, 192);
+}
+
+.border{
+    border-color: rgb(229, 227, 227);
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 0.5px;
+}
+
+.padding{
+    padding-top: 2px;
+    padding-left: 5px;
+    
+}
+
+.book-version{
+    text-align: center;
+}
+
+.book-ratings{
+    padding: 2.5px;
+}
+
+
+
+#searched-books{
+    list-style: none;
+}
+
+#body-div{
+    display: flex;
+}
+
+#catogories{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+#catogories-div{
+    width: 130px;
+    background-color: rgb(83, 83, 214);
+    box-shadow: 1px 1px 4px gray;
+}
+.catogories-items{
+    color: aliceblue;
+    margin-bottom: 6px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 0.1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    cursor: pointer;
+}
+.catogories-items:hover{
+    color: rgb(180, 180, 192); 
+}
+#book-list{
+    padding: 0px;
+}
+
+#navbar{
+    background-color: rgb(83, 83, 214);
+    margin: 0px;
+    box-shadow: 1px 1px 4px gray;
+}
+
+#result-container{
+    height: 0px;
+}
+
+#logo{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#search-bar-result-container{
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#result-container{
+    background-color: aliceblue;
+}
+
+#add-user-div{
+    width: 100px;
+    position: relative;
+    top:8px;
+    left: 150px;
+    background-color: rgb(83, 83, 214) ;
+}
+#add-user-btn{
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 0.1px;
+    border-color: aliceblue;
+}
+#navbar{
+    height: 50px;
+    display: flex;
+}
+
+#total-amount-div{
+    position: relative;
+    left: 280px;
+    bottom: 15px;
+    color:white;
+}
+
+.out-of-stock{
+    height: 40px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+    top: 40px;
+    color: red;
+    background-color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+    pointer-events: visible;
+    opacity: "0";
+}

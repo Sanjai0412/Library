@@ -1,0 +1,140 @@
+
+#site-details{
+    height: 500px;
+    width: 400px;
+    box-shadow: 2px 0px 4px rgb(77, 71, 71);
+    background-color: rgb(83, 83, 214);
+}
+
+#site-details-text{
+    margin-top: 200px;
+    color: aliceblue;
+}
+
+#outline-div{
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px gray;
+}
+
+#password-div{
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+#confirm-password-label{
+    margin-left: 60px;
+    width: 93px;
+    display: flex;
+}
+
+#confirm-password-input{
+     height: 22px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+#confirm-password-div{
+    height: 35px;
+    display: flex;
+}
+
+#username-div{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#outline{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    margin: 50px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 3px;
+}
+
+#login-btn{
+    height: 25px;
+    width: 70px;
+    margin-left: 150px;
+    color: aliceblue;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px gray;
+    cursor: pointer;
+    background-color:  rgb(83, 83, 214);
+}
+
+#login-btn:hover{
+    background-color: rgb(115, 115, 251);
+}
+
+#new-user-div{
+    display: flex;
+}
+#new-user-text{
+    height: 10px;
+    width: 160px;
+    margin-left: 100px;
+}
+#signup-link{
+    height: 10px;
+    width: 50px;
+    margin-top: 16px;
+    color:rgb(83, 83, 214);
+}
+
+#incorrect-username{
+    color: red;
+    height: 3px;
+    width: 200px;
+    font-size: small;
+    margin-top: 3px;
+    margin-left: 40px;
+}
+#incorrect-password{
+    color: red;
+    height: 3px;
+    width: 200px;
+    font-size: small;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+#username-label{
+    margin-left: 25px;
+}
+
+#college-name-div{
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+#college-label{
+    margin-left: 13px;
+}
+#gender-label{
+    margin-left: 14px;
+}
+#dob-label{
+    margin-left: 25px;
+}
+
+.margin{
+    margin-bottom: 15px;
+}
+
+#confirm-password-correction{
+    color: red;
+    height: 3px;
+    width: 200px;
+    font-size: small;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}

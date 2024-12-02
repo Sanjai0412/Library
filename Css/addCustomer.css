@@ -1,0 +1,142 @@
+
+:root{
+    --labelWidth:80px;
+    --labelHeight:30px;
+
+    --inputHeight:30px;
+    --inputWidth:170px;
+
+}
+
+#site-details{
+    height: 500px;
+    width: 400px;
+    box-shadow: 2px 0px 4px rgb(77, 71, 71);
+    background-color: rgb(83, 83, 214);
+}
+
+#site-details-text{
+    margin-top: 200px;
+    color: aliceblue;
+}
+
+#outline-div{
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px gray;
+}
+
+#mobile-number-div{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#username-div{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#outline{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    margin: 50px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 3px;
+}
+
+#add-btn{
+    height: 25px;
+    width: 70px;
+    margin-left: 150px;
+    color: aliceblue;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px gray;
+    cursor: pointer;
+    background-color:  rgb(83, 83, 214);
+}
+
+#add-btn:hover{
+    background-color: rgb(115, 115, 251);
+}
+#new-user-div{
+    display: flex;
+}
+#new-user-text{
+    height: 10px;
+    width: 160px;
+    margin-left: 100px;
+}
+#signup-link{
+    height: 10px;
+    width: 50px;
+    margin-top: 16px;
+    color:rgb(83, 83, 214);
+}
+
+#username-label{
+    width: var(--labelWidth);
+    height: var(--labelHeight);
+    text-align: right;
+}
+
+#college-label{
+    width: var(--labelWidth);
+    height: var(--labelHeight);
+    text-align: right;
+}
+#gender-label{
+    width: var(--labelWidth);
+    height: var(--labelHeight);
+    text-align: right;
+}
+#dob-label{
+    width: var(--labelWidth);
+    height: var(--labelHeight);
+    text-align: right;
+}
+#mobile-number-label{
+    width: var(--labelWidth);
+    height: var(--labelHeight);
+    text-align: right;
+}
+
+#college-name-div{
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    height: var(--inputHeight);
+    width: var(--inputWidth);
+    position: relative;
+    left: 4px;
+}
+
+.margin{
+    margin-bottom: 15px;
+}
+
+#confirm-password-correction{
+    color: red;
+    height: 3px;
+    width: 200px;
+    font-size: small;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+}
+.position{
+    position: relative;
+    left: 50px;
+}
